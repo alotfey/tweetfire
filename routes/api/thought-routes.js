@@ -25,8 +25,6 @@ router
 .delete(removeThought)
 
 
-router
-.route('/:userId/:thoughtId')
 
 router
 .route('/:thoughtId/reactions')
